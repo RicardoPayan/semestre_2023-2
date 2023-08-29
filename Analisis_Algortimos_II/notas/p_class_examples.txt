@@ -1,0 +1,22 @@
+Link : https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/
+
+Definicion de esta fuente : 
+-The solution to P problems is easy to find. 
+ -P is often a class of computational problems that are solvable and tractable. Tractable means that the problems can be solved in theory as well as in practice. But the problems that can be solved in theory but not in practice are known as intractable.
+
+Ejemplos:
+    Calculating the greatest common divisor.
+    Finding a maximum matching.
+    Decision versions of linear programming.
+    
+---------------------------------------------------------------------------------
+
+Link : https://codecrucks.com/p-and-np-problems/
+
+Ejemplos :
+    Insertion sort
+    Merge sort
+    Linear search
+    Matrix multiplication
+    Finding minimum and maximum elements from the array
+
