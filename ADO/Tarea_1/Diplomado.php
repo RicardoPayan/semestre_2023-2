@@ -3,8 +3,8 @@
   class Diplomado extends ProgramaEstudios{
         private $modulos = [];
 
-        public function agregarModulos($nombre, $duracion){
-            $this->modulos[] = new Modulo($nombre, $duracion);
+        public function agregarModulos(Modulo $modulo){
+            $this->modulos[] = $modulo;
         }
 
         public function obtenerModulos(){
