@@ -42,9 +42,9 @@
 
     //Verificar que la duración del diplomado sea mayor o igual a 120 horas
     if($diplomado->verificarDuracion()){
-        echo "No cumple: El diplomado tiene una duración de 120 horas o más";
+        echo "No cumple: El diplomado tiene una duración de 120 horas o más \n";
     }else{  
-        echo "Cumple: El diplomado tiene una duración menor a 120 horas";
+        echo "Cumple: El diplomado tiene una duración menor a 120 horas\n";
     }
 
     /*
@@ -67,9 +67,9 @@
     //Hay que verificar que el programa de estudios este aprobado antes de aprobar el curso de actualizacion
     if($programa->estaAprobado()){
         $curso->setAprobado(True);
-        echo "El programa de estudios ha sido aprobado";
+        echo "El programa de estudios ha sido aprobado \n";
     }else{
-        echo "El programa de estudios no esta aprobado";
+        echo "El programa de estudios no esta aprobado \n";
     }
 
 
